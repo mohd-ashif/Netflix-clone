@@ -17,9 +17,7 @@ const Banner = () => {
       setMovie(response.data.results[0])
     })
   
-  }, [])
-  
-
+  }, []);
 
   return (
     <div style={{backgroundImage: `url(${movie ? imageUrl+ movie.backdrop_path : " "})`}}

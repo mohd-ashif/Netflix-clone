@@ -21,3 +21,20 @@ width: 80px;
     right: 20px;
     width: 30px;
 }
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: 60px; /* Adjust height for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items:start; /* Center items on smaller screens */
+    }
+
+    .logo {
+        position: static; 
+        margin-bottom: 10px; /* Add space between logo and other items on smaller screens */
+    }
+
+    .avatar {
+        display: none;
+    }
+}

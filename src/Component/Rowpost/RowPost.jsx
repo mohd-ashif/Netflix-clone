@@ -35,7 +35,8 @@ const RowPost = (props) => {
       .then((response) => {
         console.log(response.data);
         if (response.data.results.length !== 0) {
-          setUrlId(response.data.results[0].key); // Assuming 'key' is the property containing the video ID
+          setUrlId(response.data.results[0].key); 
+          // setUrlId(response.data.results[0].key); 
         }
       })
       .catch(error => {

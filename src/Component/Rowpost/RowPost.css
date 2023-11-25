@@ -39,3 +39,23 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 }
+@media screen and (max-width: 768px) {
+    .row {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .posters {
+        padding: 10px;
+    }
+
+    .poster {
+        max-height: 200px;
+        margin-right: 5px;
+    }
+
+    .smallPoster {
+        max-height: 150px;
+        margin-right: 5px;
+    }
+}
